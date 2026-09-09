@@ -1,7 +1,6 @@
 ---
 description: Find out why a wawesome Function is failing
 argument-hint: "[function name or invocation id]"
-allowed-tools: [Read, Glob, Grep, Bash]
 ---
 
 Work out why a wawesome Function is failing.
