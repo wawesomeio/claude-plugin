@@ -1,0 +1,26 @@
+name: validate
+
+# A push to this repository reaches every Claude Code user through the plugin
+# directory, with no review of ours in between. This job is the review.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # Unpinned on purpose: the loader that has to accept this plugin is
+      # whichever one users are running, not the one we pinned last year.
+      - run: npm install -g @anthropic-ai/claude-code@latest
+      - run: claude plugin validate --strict .

@@ -1,0 +1,12 @@
+{
+  "name": "wawesome",
+  "description": "Deploy JavaScript Functions and static pages to wawesome. Read what is live, deploy code and files together, invoke a handler, fetch a page back, read invocation logs, roll back, and set environment variables, over one MCP endpoint.",
+  "version": "0.1.0",
+  "author": {
+    "name": "wawesome"
+  },
+  "homepage": "https://wawesome.io/docs/mcp",
+  "repository": "https://github.com/wawesomeio/claude-plugin",
+  "license": "MIT",
+  "keywords": ["wawesome", "deploy", "hosting", "serverless", "javascript", "static-site"]
+}

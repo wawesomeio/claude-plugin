@@ -1,0 +1,6 @@
+{
+  "wawesome": {
+    "type": "http",
+    "url": "https://api.wawesome.io/v1/mcp"
+  }
+}
