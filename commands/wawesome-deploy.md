@@ -1,7 +1,6 @@
 ---
 description: Deploy this project to wawesome and fetch the result back
 argument-hint: "[function name]"
-allowed-tools: [Read, Glob, Grep, Bash]
 ---
 
 Deploy this project to wawesome, then prove it answers.
