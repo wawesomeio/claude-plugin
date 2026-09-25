@@ -1,0 +1,15 @@
+{
+  "name": "wawesome",
+  "description": "The wawesome plugin for Claude Code, from the team that runs wawesome.",
+  "owner": {
+    "name": "wawesome",
+    "url": "https://wawesome.io"
+  },
+  "plugins": [
+    {
+      "name": "wawesome",
+      "source": "./",
+      "description": "Deploy JavaScript Functions and static pages to wawesome over one MCP endpoint."
+    }
+  ]
+}

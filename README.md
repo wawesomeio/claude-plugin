@@ -10,8 +10,11 @@ bundler, so a deploy serves exactly what it declared.
 ## Install
 
 ```
-/plugin install wawesome
+/plugin marketplace add wawesomeio/claude-plugin
+/plugin install wawesome@wawesome
 ```
+
+Once the plugin is in Anthropic's directory, `/plugin install wawesome` works on its own.
 
 The first tool call opens a browser tab on `auth.wawesome.io`. Sign in with GitHub or Google, and
 pick what the connection may do. If you have no wawesome workspace yet, that screen creates one.
